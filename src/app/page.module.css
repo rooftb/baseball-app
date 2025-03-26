@@ -32,7 +32,35 @@
   flex-direction: column;
   gap: 32px;
   grid-row-start: 2;
+  min-width: 300px;
 }
+
+.main table {
+  width: 300px;
+}
+
+.teamName {
+  width: 180px;
+}
+
+.odds {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.odds {
+  display: flex;
+  justify-content: center;
+
+  td {
+    justify-content: center;
+  }
+}
+
+.input {
+  width: 50px;
+}
+
 
 .main ol {
   font-family: var(--font-geist-mono);
@@ -98,68 +126,6 @@ a.secondary {
   gap: 24px;
 }
 
-.footer a {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-}
-
-.footer img {
-  flex-shrink: 0;
-}
-
-/* Enable hover only on non-touch devices */
-@media (hover: hover) and (pointer: fine) {
-  a.primary:hover {
-    background: var(--button-primary-hover);
-    border-color: transparent;
-  }
-
-  a.secondary:hover {
-    background: var(--button-secondary-hover);
-    border-color: transparent;
-  }
-
-  .footer a:hover {
-    text-decoration: underline;
-    text-underline-offset: 4px;
-  }
-}
-
-@media (max-width: 600px) {
-  .page {
-    padding: 32px;
-    padding-bottom: 80px;
-  }
-
-  .main {
-    align-items: center;
-  }
-
-  .main ol {
-    text-align: center;
-  }
-
-  .ctas {
-    flex-direction: column;
-  }
-
-  .ctas a {
-    font-size: 14px;
-    height: 40px;
-    padding: 0 16px;
-  }
-
-  a.secondary {
-    min-width: auto;
-  }
-
-  .footer {
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-  }
-}
 
 @media (prefers-color-scheme: dark) {
   .logo {

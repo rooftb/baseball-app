@@ -1,0 +1,717 @@
+{
+    "date": "2024-04-20",
+    "matchups": [
+        {
+            "away_team": "Chicago White Sox",
+            "away_team_rank": 30,
+            "game_time": "2024-04-20T22:05:00Z",
+            "home_team": "Philadelphia Phillies",
+            "home_team_rank": 7,
+            "odds": [
+                {
+                    "key": "betonlineag",
+                    "last_update": "2025-03-18T18:51:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:51:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.36
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.68
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetOnline.ag"
+                },
+                {
+                    "key": "lowvig",
+                    "last_update": "2025-03-18T18:50:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:50:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.36
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.68
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "LowVig.ag"
+                },
+                {
+                    "key": "draftkings",
+                    "last_update": "2025-03-18T18:49:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:49:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.3
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.65
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "DraftKings"
+                },
+                {
+                    "key": "bovada",
+                    "last_update": "2025-03-18T18:50:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:50:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.3
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.65
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "Bovada"
+                },
+                {
+                    "key": "betus",
+                    "last_update": "2025-03-18T18:50:44Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:50:44Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.33
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.68
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetUS"
+                },
+                {
+                    "key": "fanduel",
+                    "last_update": "2025-03-18T18:48:48Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:48:48Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.2
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.7
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "FanDuel"
+                },
+                {
+                    "key": "betmgm",
+                    "last_update": "2025-03-18T18:49:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:49:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.25
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.67
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetMGM"
+                },
+                {
+                    "key": "betrivers",
+                    "last_update": "2025-03-18T18:51:06Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:51:06Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.32
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.65
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetRivers"
+                }
+            ],
+            "ranking_diff": 23
+        },
+        {
+            "away_team": "Oakland Athletics",
+            "away_team_rank": 25,
+            "game_time": "2024-04-20T22:10:00Z",
+            "home_team": "Cleveland Guardians",
+            "home_team_rank": 2,
+            "odds": [
+                {
+                    "key": "betonlineag",
+                    "last_update": "2025-03-18T18:51:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:51:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.36
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.68
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetOnline.ag"
+                },
+                {
+                    "key": "lowvig",
+                    "last_update": "2025-03-18T18:50:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:50:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.36
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.68
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "LowVig.ag"
+                },
+                {
+                    "key": "draftkings",
+                    "last_update": "2025-03-18T18:49:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:49:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.3
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.65
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "DraftKings"
+                },
+                {
+                    "key": "bovada",
+                    "last_update": "2025-03-18T18:50:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:50:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.3
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.65
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "Bovada"
+                },
+                {
+                    "key": "betus",
+                    "last_update": "2025-03-18T18:50:44Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:50:44Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.33
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.68
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetUS"
+                },
+                {
+                    "key": "fanduel",
+                    "last_update": "2025-03-18T18:48:48Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:48:48Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.2
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.7
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "FanDuel"
+                },
+                {
+                    "key": "betmgm",
+                    "last_update": "2025-03-18T18:49:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:49:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.25
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.67
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetMGM"
+                },
+                {
+                    "key": "betrivers",
+                    "last_update": "2025-03-18T18:51:06Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:51:06Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.32
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.65
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetRivers"
+                }
+            ],
+            "ranking_diff": 23
+        },
+        {
+            "away_team": "Milwaukee Brewers",
+            "away_team_rank": 3,
+            "game_time": "2024-04-20T18:15:00Z",
+            "home_team": "St. Louis Cardinals",
+            "home_team_rank": 24,
+            "odds": [
+                {
+                    "key": "betonlineag",
+                    "last_update": "2025-03-18T18:51:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:51:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.36
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.68
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetOnline.ag"
+                },
+                {
+                    "key": "lowvig",
+                    "last_update": "2025-03-18T18:50:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:50:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.36
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.68
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "LowVig.ag"
+                },
+                {
+                    "key": "draftkings",
+                    "last_update": "2025-03-18T18:49:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:49:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.3
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.65
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "DraftKings"
+                },
+                {
+                    "key": "bovada",
+                    "last_update": "2025-03-18T18:50:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:50:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.3
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.65
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "Bovada"
+                },
+                {
+                    "key": "betus",
+                    "last_update": "2025-03-18T18:50:44Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:50:44Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.33
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.68
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetUS"
+                },
+                {
+                    "key": "fanduel",
+                    "last_update": "2025-03-18T18:48:48Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:48:48Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.2
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.7
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "FanDuel"
+                },
+                {
+                    "key": "betmgm",
+                    "last_update": "2025-03-18T18:49:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:49:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.25
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.67
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetMGM"
+                },
+                {
+                    "key": "betrivers",
+                    "last_update": "2025-03-18T18:51:06Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:51:06Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.32
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.65
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetRivers"
+                }
+            ],
+            "ranking_diff": 21
+        },
+        {
+            "away_team": "Miami Marlins",
+            "away_team_rank": 28,
+            "game_time": "2024-04-20T18:20:00Z",
+            "home_team": "Chicago Cubs",
+            "home_team_rank": 8,
+            "odds": [
+                {
+                    "key": "betonlineag",
+                    "last_update": "2025-03-18T18:51:05Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:51:05Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.36
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.68
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetOnline.ag"
+                },
+                {
+                    "key": "lowvig",
+                    "last_update": "2025-03-18T18:50:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:50:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.36
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.68
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "LowVig.ag"
+                },
+                {
+                    "key": "draftkings",
+                    "last_update": "2025-03-18T18:49:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:49:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.3
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.65
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "DraftKings"
+                },
+                {
+                    "key": "bovada",
+                    "last_update": "2025-03-18T18:50:43Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:50:43Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.3
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.65
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "Bovada"
+                },
+                {
+                    "key": "betus",
+                    "last_update": "2025-03-18T18:50:44Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:50:44Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.33
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.68
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetUS"
+                },
+                {
+                    "key": "fanduel",
+                    "last_update": "2025-03-18T18:48:48Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:48:48Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.2
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.7
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "FanDuel"
+                },
+                {
+                    "key": "betmgm",
+                    "last_update": "2025-03-18T18:49:35Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:49:35Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.25
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.67
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetMGM"
+                },
+                {
+                    "key": "betrivers",
+                    "last_update": "2025-03-18T18:51:06Z",
+                    "markets": [
+                        {
+                            "key": "h2h",
+                            "last_update": "2025-03-18T18:51:06Z",
+                            "outcomes": [
+                                {
+                                    "name": "Chicago Cubs",
+                                    "price": 2.32
+                                },
+                                {
+                                    "name": "Los Angeles Dodgers",
+                                    "price": 1.65
+                                }
+                            ]
+                        }
+                    ],
+                    "title": "BetRivers"
+                }
+            ],
+            "ranking_diff": 20
+        }
+    ]
+}
