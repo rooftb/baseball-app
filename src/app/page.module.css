@@ -51,16 +51,11 @@
 .odds {
   display: flex;
   justify-content: center;
-
-  td {
-    justify-content: center;
-  }
 }
 
 .input {
   width: 50px;
 }
-
 
 .main ol {
   font-family: var(--font-geist-mono);
@@ -96,10 +91,7 @@
   padding: 0 20px;
   border: none;
   border: 1px solid transparent;
-  transition:
-    background 0.2s,
-    color 0.2s,
-    border-color 0.2s;
+  transition: background 0.2s, color 0.2s, border-color 0.2s;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -125,7 +117,6 @@ a.secondary {
   display: flex;
   gap: 24px;
 }
-
 
 @media (prefers-color-scheme: dark) {
   .logo {
