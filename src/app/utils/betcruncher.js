@@ -190,7 +190,7 @@ module.exports = (function () {
     }
 
     // Convert all the runners to the correct odds format
-    // @ts-ignore
+    // @ts-expect-error Will come back to
     convert = require('./oddsconverter');
     for (i = 0; i < runners.length; i += 1) {
       runners[i].odds = convert(runners[i].odds).decimal;
