@@ -15,7 +15,7 @@ export default function Home() {
   const [month, setMonth] = useState(new Date().getMonth() + 1);
   const [day, setDay] = useState(new Date().getDate());
   const [year, setYear] = useState(new Date().getFullYear());
-  const [calendarDate, setCalendarDate] = useState<Date>(new Date());
+  const [calendarDate, setCalendarDate] = useState<Date | null>(new Date());
 
   useEffect(() => {
     setDay(calendarDate.getDate());
@@ -48,7 +48,7 @@ export default function Home() {
       <main className={styles.main}>
         <DatePicker
           selected={calendarDate}
-          onChange={(date) => setCalendarDate(date)}
+          onChange={(date: Date | null) => setCalendarDate(date)}
         />
 
         <span>{calendarDate.toLocaleDateString('en-US')}</span>
