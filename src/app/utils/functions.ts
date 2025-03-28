@@ -1,4 +1,4 @@
-export function convertToMoneyline(decimalOdds: number) {
+export function convertToMoneyline(decimalOdds: number = 0) {
     if (decimalOdds <= 1) {
         return "Invalid Input";
     }

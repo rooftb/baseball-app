@@ -1,5 +1,5 @@
 export interface GameCardType {
-    baseballData: DataType
+    data: DataType
     index: number
 }
 
