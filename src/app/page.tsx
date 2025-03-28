@@ -3,13 +3,13 @@
 import { useState, useEffect } from 'react';
 import styles from './page.module.css';
 import GameCard from './components/GameCard';
-import { DataType } from '../interfaces/types';
+import { DataType } from './interfaces/types';
 // import Parlay from "./components/Parlay";
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
 export default function Home() {
-  const [data, setData] = useState<DataType>([]);
+  const [data, setData] = useState<DataType>();
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
