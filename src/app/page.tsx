@@ -63,7 +63,7 @@ export default function Home() {
           <p>No data available.</p>
         )}
 
-        {data.matchups.length === 0 && <p>No games found.</p>}
+        {data.matchups && data.matchups.length === 0 && <p>No games found.</p>}
 
         {/* <Parlay data={data} /> */}
       </main>
