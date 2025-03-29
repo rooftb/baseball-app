@@ -56,7 +56,7 @@ export default function Home() {
 
         {error && <p>{error}</p>}
 
-        {data.matchups ? (
+        {data && data.matchups ? (
           data.matchups.map((item, i) => (
             <GameCard key={i} index={i} data={data} />
           ))
@@ -64,7 +64,9 @@ export default function Home() {
           <p>No data available.</p>
         )}
 
-        {data.matchups && data.matchups.length === 0 && <p>No games found.</p>}
+        {data && data.matchups && data.matchups.length === 0 && (
+          <p>No games found.</p>
+        )}
 
         {/* <Parlay data={data} /> */}
       </main>
