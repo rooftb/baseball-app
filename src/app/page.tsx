@@ -4,7 +4,7 @@ import { useState, useEffect } from 'react';
 import styles from './page.module.css';
 import GameCard from './components/GameCard';
 import { DataType } from './interfaces/types';
-// import Parlay from "./components/Parlay";
+import Parlay from './components/Parlay';
 import DatePicker from 'react-datepicker';
 import 'react-datepicker/dist/react-datepicker.css';
 
@@ -52,7 +52,14 @@ export default function Home() {
           onChange={(date: Date | null) => setCalendarDate(date)}
         />
 
-        <span>{calendarDate.toLocaleDateString('en-US')}</span>
+        <span>
+          {calendarDate.toLocaleDateString('en-US', {
+            weekday: 'long',
+            year: 'numeric',
+            month: 'long',
+            day: 'numeric',
+          })}
+        </span>
 
         {error && <p>{error}</p>}
 
@@ -61,7 +68,7 @@ export default function Home() {
             <GameCard key={i} index={i} data={data} />
           ))
         ) : (
-          <p>No data available.</p>
+          <p>Loading...</p>
         )}
 
         {data && data.matchups && data.matchups.length === 0 && (
