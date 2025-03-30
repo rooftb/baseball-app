@@ -1,6 +1,6 @@
 # Baseball App
 
-Wanna know when a top ten MLB team is playing a bottom 10 team? Well, here you go. This app displays such daily MLB games along with the moneyline odds for each game. It's up to you to decide what to do with that information.
+Wanna know when a top 10 MLB team is playing a bottom 10 team? Well, here you go. This app displays such daily MLB games along with the moneyline odds for each game. It's up to you to decide what to do with that information.
 
 ## Description
 
