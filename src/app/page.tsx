@@ -64,9 +64,13 @@ export default function Home() {
         {error && <p>{error}</p>}
 
         {data && data.matchups ? (
-          data.matchups.map((item, i) => (
-            <GameCard key={i} index={i} data={data} />
-          ))
+          data.matchups
+            .sort(
+              (a, b) =>
+                new Date(a.game_time).valueOf() -
+                new Date(b.game_time).valueOf()
+            )
+            .map((item, i) => <GameCard key={i} index={i} data={data} />)
         ) : (
           <p>Loading...</p>
         )}
