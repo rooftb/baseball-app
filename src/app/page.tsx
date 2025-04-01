@@ -19,14 +19,30 @@ export default function Home() {
   const [calendarDate, setCalendarDate] = useState<Date | null>(new Date());
 
   useEffect(() => {
-    setDay(calendarDate.getDate());
-    setMonth(calendarDate.getMonth() + 1);
+    const formattedDay =
+      calendarDate.getDate() <= 9
+        ? '0' + calendarDate.getDate()
+        : calendarDate.getDate();
+
+    console.log(formattedDay);
+
+    const formattedMonth =
+      calendarDate.getMonth() <= 10
+        ? '0' + (calendarDate.getMonth() + 1)
+        : calendarDate.getMonth() + 1;
+
+    console.log(formattedMonth);
+
+    console.log(calendarDate);
+
+    setDay(+formattedDay);
+    setMonth(+formattedMonth);
     setYear(calendarDate.getFullYear());
   }, [calendarDate]);
 
   useEffect(() => {
     fetch(
-      `https://us-central1-bet-baseball.cloudfunctions.net/get_top_vs_bottom_matchups?schedule_date=${year}-${month}-${day}&ranking_date=2024-09-01&odds_date=${year}-${month}-${day}`
+      `https://us-central1-bet-baseball.cloudfunctions.net/get_top_vs_bottom_matchups?schedule_date=${year}-${month}-${day}&ranking_date=${year}-${month}-${day}&odds_date=${year}-${month}-${day}`
     )
       .then((res) => res.json())
       .then((data) => {
@@ -61,8 +77,6 @@ export default function Home() {
           })}
         </span>
 
-        {error && <p>{error}</p>}
-
         {data && data.matchups ? (
           data.matchups
             .sort(
@@ -78,6 +92,8 @@ export default function Home() {
         {data && data.matchups && data.matchups.length === 0 && (
           <p>No games found.</p>
         )}
+
+        {error && <p>{error}</p>}
 
         {/* <Parlay data={data} /> */}
       </main>
