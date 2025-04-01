@@ -14,7 +14,7 @@ This project uses NextJS along with a sportsbook API to display the data.
 
 ### Installing
 
-- Project is hosted on Vercel: https://baseball-app-five.vercel.app/
+- Project is hosted on Vercel: [https://the-baseball-app.vercel.app/](https://the-baseball-app.vercel.app/)
 
 or
 
