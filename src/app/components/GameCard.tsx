@@ -10,7 +10,7 @@ export default function GameCard({ data, index }: GameCardType) {
   useEffect(() => {
     if (data.matchups[index].odds[3]) {
       setHomeTeamOdds(
-        data.matchups[index].odds[3].markets[0].outcomes[1].price
+        data.matchups[index].odds[3].markets[0].outcomes[0].price
       );
       setAwayTeamOdds(
         data.matchups[index].odds[3].markets[0].outcomes[1].price
