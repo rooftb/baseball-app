@@ -42,7 +42,7 @@ export default function Home() {
 
   useEffect(() => {
     fetch(
-      `https://us-central1-bet-baseball.cloudfunctions.net/check_bucket_and_return_response?schedule_date=${year}-${month}-${day}`
+      `https://us-central1-bet-baseball.cloudfunctions.net/check_firestore_and_return_response?schedule_date=${year}-${month}-${day}`
     )
       .then((res) => res.json())
       .then((data) => {
