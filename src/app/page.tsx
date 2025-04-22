@@ -19,21 +19,8 @@ export default function Home() {
   const [calendarDate, setCalendarDate] = useState<Date | null>(new Date());
 
   useEffect(() => {
-    const formattedDay =
-      calendarDate.getDate() <= 9
-        ? '0' + calendarDate.getDate()
-        : calendarDate.getDate();
-
-    console.log(formattedDay);
-
-    const formattedMonth =
-      calendarDate.getMonth() <= 10
-        ? '0' + (calendarDate.getMonth() + 1)
-        : calendarDate.getMonth() + 1;
-
-    console.log(formattedMonth);
-
-    console.log(calendarDate);
+    const formattedDay = String(calendarDate.getDate()).padStart(2, '0');
+    const formattedMonth = String(calendarDate.getMonth() + 1).padStart(2, '0');
 
     setDay(+formattedDay);
     setMonth(+formattedMonth);
