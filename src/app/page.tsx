@@ -13,8 +13,8 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const [month, setMonth] = useState(new Date().getMonth() + 1);
-  const [day, setDay] = useState(new Date().getDate());
+  const [month, setMonth] = useState(String(new Date().getMonth() + 1).padStart(2, '0'));
+  const [day, setDay] = useState(String(new Date().getDate()).padStart(2, '0'));  
   const [year, setYear] = useState(new Date().getFullYear());
   const [calendarDate, setCalendarDate] = useState<Date | null>(new Date());
 
@@ -22,8 +22,8 @@ export default function Home() {
     const formattedDay = String(calendarDate.getDate()).padStart(2, '0');
     const formattedMonth = String(calendarDate.getMonth() + 1).padStart(2, '0');
 
-    setDay(+formattedDay);
-    setMonth(+formattedMonth);
+    setDay(formattedDay);
+    setMonth(formattedMonth);
     setYear(calendarDate.getFullYear());
   }, [calendarDate]);
 
