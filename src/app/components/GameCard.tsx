@@ -19,7 +19,7 @@ export default function GameCard({ data, index }: GameCardType) {
   }, [data]);
 
   return (
-    <div className={styles.cta}>
+    <div className={styles.gameCard}>
       <table>
         <tbody>
           <tr>
