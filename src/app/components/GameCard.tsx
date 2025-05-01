@@ -31,6 +31,9 @@ export default function GameCard({ data, index }: GameCardType) {
             </td>
             <td className={styles.odds}>ML</td>
             <td className={styles.rank}>Rank</td>
+            <td>SP</td>
+            <td className={styles.rank}>ERA</td>
+            <td className={styles.rank}>IP</td>
           </tr>
           <tr>
             <td className={styles.teamName}>
@@ -44,6 +47,15 @@ export default function GameCard({ data, index }: GameCardType) {
             <td className={styles.rank}>
               {data.matchups[index].home_team_rank}
             </td>
+            <td className={styles.pitcherName}>
+              {data.matchups[index].home_pitcher.name}
+            </td>
+            <td className={styles.rank}>
+              {data.matchups[index].home_pitcher.era}
+            </td>
+            <td className={styles.rank}>
+              {data.matchups[index].home_pitcher.inningsPitched}
+            </td>
           </tr>
           <tr>
             <td className={styles.teamName}>
@@ -55,6 +67,15 @@ export default function GameCard({ data, index }: GameCardType) {
             </td>
             <td className={styles.rank}>
               {data.matchups[index].away_team_rank}
+            </td>
+            <td className={styles.pitcherName}>
+              {data.matchups[index].away_pitcher.name}
+            </td>
+            <td className={styles.rank}>
+              {data.matchups[index].away_pitcher.era}
+            </td>
+            <td className={styles.rank}>
+              {data.matchups[index].away_pitcher.inningsPitched}
             </td>
           </tr>
         </tbody>

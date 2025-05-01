@@ -35,21 +35,19 @@
 }
 
 .main table {
-  width: 300px;
+  width: 500px;
 }
 
 .teamName {
   width: 180px;
 }
 
-.odds {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.odds {
-  display: flex;
-  justify-content: center;
+.pitcherName {
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
 }
 
 .input {

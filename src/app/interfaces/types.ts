@@ -11,13 +11,20 @@ export interface DataType {
 export interface Matchup {
     away_team: string
     away_team_rank: number
+    away_pitcher: Pitcher
     game_time: string
     home_team: string
     home_team_rank: number
+    home_pitcher: Pitcher
     odds: Odd[]
     ranking_diff: number
 }
 
+export interface Pitcher {
+  era: string
+  inningsPitched: string
+  name: string
+}
 export interface Odd {
     key: string
     last_update: string
