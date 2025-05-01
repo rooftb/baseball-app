@@ -31,25 +31,36 @@
   flex-direction: column;
   gap: 32px;
   grid-row-start: 2;
-  min-width: 300px;
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 0 16px;
 }
 
-.main table {
-  width: 300px;
+
+.gameCardWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 100%;
+  overflow-x: auto;
+}
+
+.gameCard table {
+  min-width: 500px;
 }
 
 .teamName {
   width: 180px;
 }
 
-.odds {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.odds {
-  display: flex;
-  justify-content: center;
+.pitcherName {
+  width: 120px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
 }
 
 .input {

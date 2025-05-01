@@ -66,13 +66,17 @@ export default function Home() {
         </span>
 
         {data && data.matchups ? (
-          data.matchups
-            .sort(
-              (a, b) =>
-                new Date(a.game_time).valueOf() -
-                new Date(b.game_time).valueOf()
-            )
-            .map((item, i) => <GameCard key={i} index={i} data={data} />)
+          <div className={styles.gameCardWrapper}>
+            {data.matchups
+              .sort(
+                (a, b) =>
+                  new Date(a.game_time).valueOf() -
+                  new Date(b.game_time).valueOf()
+              )
+              .map((item, i) => (
+                <GameCard key={i} index={i} data={data} />
+              ))}
+          </div>
         ) : (
           <p>Loading...</p>
         )}
