@@ -13,14 +13,15 @@ export default function Home() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  const [month, setMonth] = useState(String(new Date().getMonth() + 1).padStart(2, '0'));
-  const [day, setDay] = useState(String(new Date().getDate()).padStart(2, '0'));  
-  const [year, setYear] = useState(new Date().getFullYear());
+  const today = new Date();
+  const [month, setMonth] = useState(today.toLocaleDateString('en-US', { month: '2-digit' }));
+  const [day, setDay] = useState(today.toLocaleDateString('en-US', { day: '2-digit' }));
+  const [year, setYear] = useState(today.getFullYear());
   const [calendarDate, setCalendarDate] = useState<Date | null>(new Date());
 
   useEffect(() => {
-    const formattedDay = String(calendarDate.getDate()).padStart(2, '0');
-    const formattedMonth = String(calendarDate.getMonth() + 1).padStart(2, '0');
+    const formattedDay = calendarDate.toLocaleDateString('en-US', { day: '2-digit' });
+    const formattedMonth = calendarDate.toLocaleDateString('en-US', { month: '2-digit' });
 
     setDay(formattedDay);
     setMonth(formattedMonth);
